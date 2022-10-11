@@ -1,0 +1,26 @@
+.container{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo{
+    font-size: 30px;
+    font-weight: 700;
+     & span{
+       color: var(--theme-color);
+     }
+  }
+
+  .btnGroup{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo{
+    font-size: 20px !important;
+  }
+}

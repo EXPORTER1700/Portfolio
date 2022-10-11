@@ -1,0 +1,15 @@
+.link{
+  color: var(--text-color);
+  padding: 10px;
+  font-weight: 600;
+
+  &:hover{
+    transform: translateY(-3px);
+  }
+}
+
+.active{
+  color: white;
+  background-color: var(--theme-color);
+  border-radius: 10px;
+}

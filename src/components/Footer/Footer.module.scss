@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  & img {
+    width: 30px;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}
